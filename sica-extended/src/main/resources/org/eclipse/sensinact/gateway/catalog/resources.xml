@@ -9,7 +9,7 @@
 	<resourceInfo xsi:type="resourceInfoProperty" name="history" target="values">
 		<identifier xsi:type="stringContent">history</identifier>
 		<policy name="PROPERTY" update="NONE">
-			<classname>fr.cea.brain.iot.sicabridge.sensinact.SicaHistoryResource</classname>
+			<classname>org.eclipse.sensinact.gateway.brainiot.sica.SicaHistoryResource</classname>
 		</policy>
 		<attributes>
 			<attribute name="value" type="string" modifiable="UPDATABLE"></attribute>
@@ -34,7 +34,7 @@
 	<!-- all -->
 	<resourceInfo xsi:type="resourceInfoProperty" name="all" target="values">
 		<policy name="PROPERTY" update="NONE">
-			<classname>fr.cea.brain.iot.sicabridge.sensinact.SicaAllResource</classname>
+			<classname>org.eclipse.sensinact.gateway.brainiot.sica.SicaAllResource</classname>
 		</policy>
 		<identifier xsi:type="stringContent">all</identifier>
 		<attributes>
