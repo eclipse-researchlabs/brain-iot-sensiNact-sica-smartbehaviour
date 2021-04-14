@@ -42,11 +42,11 @@ import org.slf4j.LoggerFactory;
 	immediate=true, 
 	service = EventBusTranslator.class, 
 	property = {
-			"event=fr.cea.brain.iot.sensinact.api.sica.SicaReadRequest",
-			"event=fr.cea.brain.iot.sensinact.api.sica.SicaReadHistoryRequest",
-			"event=fr.cea.brain.iot.sensinact.api.sica.SicaReadHistoryLockAttributeRequest",
-			"event=fr.cea.brain.iot.sensinact.api.sica.SicaWriteRequest",
-			"event=fr.cea.brain.iot.sensinact.api.sica.SicaWriteHistoryAttributeRequest"}
+			"event=org.eclipse.sensinact.gateway.brainiot.sica.service.api.SicaReadRequest",
+			"event=org.eclipse.sensinact.gateway.brainiot.sica.service.api.SicaReadHistoryRequest",
+			"event=org.eclipse.sensinact.gateway.brainiot.sica.service.api.SicaReadHistoryLockAttributeRequest",
+			"event=org.eclipse.sensinact.gateway.brainiot.sica.service.api.sica.SicaWriteRequest",
+			"event=org.eclipse.sensinact.gateway.brainiot.sica.service.api.SicaWriteHistoryAttributeRequest"}
 )
 public class SicaEventBusTranslator implements EventBusTranslator {
 
